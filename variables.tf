@@ -3,10 +3,7 @@ variable "enable_deletion_protection" {
   default     = false
 }
 
-variable "enable_http2" {
-  description = "Indicates whether HTTP/2 is enabled in application load balancers."
-  default     = true
-}
+variable "enable_http2" 
 
 variable "enable_cross_zone_load_balancing" {
   description = "Indicates whether cross zone load balancing should be enabled in application load balancers."
